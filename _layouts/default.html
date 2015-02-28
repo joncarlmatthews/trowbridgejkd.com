@@ -23,28 +23,7 @@
   </head>
   <body>
     <div class="site">
-      <div class="sidebar" id="sidebar">
-        <div class="header">
-          <h1 class="title"><a href="/"><img id="logo" src="/images/trowbridge-jkd.png"></a></h1>
-          <span class="tagline">Trowbridge JKD Group</span>
-        </div>
-        <div class="posts">
-
-          <div style="text-align:center;margin:0 auto">
-            19:30 to 21:00 every Weds<br>
-            19:00 to 20:30 every Fri<br>
-            <strong>Trowbridge, Wiltshire</strong>
-          </div>
-
-        </div>
-        <div class="footer">
-          <span id="footer-links">
-            <a href="/contact.html" class="footer-link">Contact</a> <span class="separator">&bull;</span>
-            <a href="/about.html" class="footer-link">About</a><br><br>
-            <a href="http://www.tommycarruthers.com/" class="footer-link">Tommy Carruthers</a>
-          </span>
-        </div>
-      </div>
+        {% include sidebar.html %}
 
         {{ content }}
 
